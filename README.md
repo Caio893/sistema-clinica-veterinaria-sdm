@@ -41,3 +41,8 @@ Depois abra http://localhost:5000 no navegador.
 Toda vacina contra raiva é enviada para a API do governo. Se o envio falhar, a vacina
 fica salva com `status_envio = 'pendente'` e pode ser reenviada pelo botão
 "Tentar novamente".
+
+## Modelagem do banco
+
+O diagrama ER e a explicação de cada tabela estão em [`docs/modelagem.md`](docs/modelagem.md).
+O SQL que cria as tabelas está em `clinica/banco.sql` e `api_governo/banco.sql`.
